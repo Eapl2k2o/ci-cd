@@ -4,7 +4,7 @@ pipeline {
         stage('Clone Code') {
             steps {
                 // Replace with your GitHub repository URL
-                git branch: 'main', url: 'https://github.com/your-actual-username/your-actual-repo.git'
+                git branch: 'main', url: 'https://github.com/Eapl2k2o/ci-cd.git'
             }
         }
         stage('Build Docker Image') {
